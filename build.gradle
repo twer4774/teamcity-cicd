@@ -6,10 +6,11 @@ plugins {
 
 group = 'com.walter'
 version = '0.0.1-SNAPSHOT'
-
-java {
-	sourceCompatibility = JavaVersion.VERSION_11
-}
+sourceCompatibility = '11'
+targetCompatibility = '11'
+//java {
+//	sourceCompatibility = JavaVersion.VERSION_11
+//}
 
 repositories {
 	mavenCentral()
